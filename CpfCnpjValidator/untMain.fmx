@@ -1,0 +1,58 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object edtCPF: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 8.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = 'CPF'
+    TabOrder = 4
+  end
+  object btnCheckCPF: TButton
+    Position.X = 265.000000000000000000
+    Position.Y = 32.000000000000000000
+    TabOrder = 5
+    Text = 'Verifica CPF'
+    TextSettings.Trimming = None
+    OnClick = btnCheckCPFClick
+  end
+  object edtCNPJ: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 8.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'CNPJ'
+    TabOrder = 1
+  end
+  object btnCheckCNPJ: TButton
+    Position.X = 265.000000000000000000
+    Position.Y = 104.000000000000000000
+    TabOrder = 2
+    Text = 'Verifica CNPJ'
+    TextSettings.Trimming = None
+    OnClick = btnCheckCNPJClick
+  end
+end
