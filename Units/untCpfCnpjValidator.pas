@@ -7,7 +7,6 @@ uses
 
 function isCPF(const value: string): Boolean;
 function isCNPJ(const value: string): Boolean;
-function OnlyNumbers(const value: string): string;
 
 implementation
 
